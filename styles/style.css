@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: 900px;
+}
+
+.logotype {
+    width: 240px;
+    height: 98px;
+    background-color: #c4c4c4;
+}
