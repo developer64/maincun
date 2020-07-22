@@ -13,8 +13,18 @@ body {
 }
 
 .header {
+    width: 1440px;
     height: 900px;
+    margin: 0 auto;
 }
+
+.headerInside {
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+
 
 .logotype {
     width: 240px;
@@ -28,9 +38,37 @@ body {
 .logotype p {
     width: 114px;
     height: 30px;
-    font-family: "Montserrat Regular",sans-serif;
-    font-size: 12px;
+    font-family: "Montserrat Regular", sans-serif;
     color: #000000;
     font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 66px;
+}
+
+.contactNmb {
+    width: 265px;
+    height: 44px;
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 36px;
+    color: #000000;
+    position: absolute;
+    top: 140px;
+    left: 1011px;
+}
+
+.menuMenu {
+    position: absolute;
+    top: 152px;
+    left: 1319px;
+    width: 86px;
+    height: 40px;
+
+}
+
+.menuMenu div {
+    height: 9px;
+    margin: 1px 0;
+    background-color: #000000;
 
 }
