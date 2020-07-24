@@ -83,3 +83,32 @@ body {
     font-size: 64px;
     color: #000000;
 }
+
+.eclipseImage {
+    width: 537px;
+    height: 484px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 725px;
+    opacity: 0.5;
+}
+
+.button {
+    width: 213px;
+    height: 49px;
+    background-color: #c4c4c4;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    top: 504px;
+    left: 158px;}
