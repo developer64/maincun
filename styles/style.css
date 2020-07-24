@@ -57,18 +57,36 @@ body {
     left: 1011px;
 }
 
-.menuMenu {
+.container {
+    display: inline-block;
+    cursor: pointer;
     position: absolute;
     top: 152px;
     left: 1319px;
     width: 86px;
     height: 40px;
-
 }
 
-.menuMenu div {
+.bar1, .bar2, .bar3 {
     height: 9px;
+    background-color: #333;
     margin: 1px 0;
-    background-color: #000000;
+    transition: 0.4s;
+}
 
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
