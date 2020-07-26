@@ -15,6 +15,9 @@ body {
     width: 1440px;
     height: 900px;
     margin: 0 auto;
+    border: solid 1px #000000;
+  background-image: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0)),
+   linear-gradient(to bottom, #d0cece, #d0cece);
 }
 
 .headerInside {
@@ -111,4 +114,32 @@ body {
     color: #000000;
     position: absolute;
     top: 504px;
-    left: 158px;}
+    left: 158px;
+}
+
+.eclipseSmall {
+    width: 103px;
+    height: 107px;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 700px;
+    left: 155px;
+    border-radius: 50%;
+}
+
+.eclipseLeft {
+    position: absolute;
+    top: 300px;
+    left: 1342px;
+    border-radius: 50%;
+    width: 60px;
+    height: 310px;
+}
+
+.eclipseLeft div {
+    width: 56px;
+    height: 42px;
+    background-color: #c4c4c4;
+    margin: 36px 0;
+    border-radius: 50%;
+} 
