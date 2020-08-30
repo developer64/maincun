@@ -143,3 +143,23 @@ body {
     margin: 36px 0;
     border-radius: 50%;
 } 
+
+.content {
+    margin-top: -20px;
+}
+
+.content:after,
+.contentInside:after {
+    content:"";
+    clear:both;
+    display: block;
+}
+
+.contentInside {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.whyWe {
+    height: 606px;
+}
