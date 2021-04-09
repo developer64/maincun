@@ -197,6 +197,22 @@ body {
     align-items: center;
 }
 
+.heading {
+    position: absolute;
+    top: 183px;
+    left: 8px;
+
+}
+
+.heading div {
+   display: inline; 
+   float: left;
+   justify-content: space-between;
+   width: 208px;
+   height: 29px;
+
+}
+
 /* .contentEclipse div:first-child {
     width: 145px;
     float: left;
