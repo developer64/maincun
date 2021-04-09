@@ -3,19 +3,24 @@
     src: url(../fonts/Montserrat-Regular.otf);
 }
 
-
-
-
-
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
 
 body {
-    margin: 0;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header {
     width: 1440px;
     height: 900px;
     margin: 0 auto;
+    border: solid 1px #000000;
+    background-image: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0)),
+        linear-gradient(to bottom, #d0cece, #d0cece);
 }
 
 .headerInside {
@@ -57,9 +62,7 @@ body {
     left: 1011px;
 }
 
-.container {
-    display: inline-block;
-    cursor: pointer;
+.menuMenu {
     position: absolute;
     top: 152px;
     left: 1319px;
@@ -67,27 +70,144 @@ body {
     height: 40px;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 86px;
+.menuMenu div {
     height: 9px;
-    background-color: #333;
     margin: 1px 0;
-    transition: 0.4s;
+    background-color: #000000;
 }
 
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+.titleName {
+    position: absolute;
+    top: 250px;
+    left: 104px;
+    width: 1042px;
+    height: 157px;
 }
 
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
+.titleName p {
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 64px;
+    color: #000000;
 }
 
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+.eclipseImage {
+    width: 537px;
+    height: 484px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 725px;
+    opacity: 0.5;
 }
+
+.button {
+    width: 213px;
+    height: 49px;
+    background-color: #c4c4c4;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    top: 504px;
+    left: 158px;
+}
+
+.eclipseSmall {
+    width: 103px;
+    height: 107px;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 700px;
+    left: 155px;
+    border-radius: 50%;
+}
+
+.eclipseLeft {
+    position: absolute;
+    top: 300px;
+    left: 1342px;
+    border-radius: 50%;
+    width: 60px;
+    height: 310px;
+}
+
+.eclipseLeft div {
+    width: 56px;
+    height: 42px;
+    background-color: #c4c4c4;
+    margin: 36px 0;
+    border-radius: 50%;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+.content:after,
+.contentInside:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.contentInside {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.whyWe {
+    height: 606px;
+    width: inherit;
+    position: absolute;
+}
+
+.whyWe p {
+    left: 511px;
+    top: 28px;
+    position: inherit;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 42px;
+    color: #000000;
+}
+
+.contentEclipse {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    top: 183px;
+    left: 8px;
+}
+
+.contentEclipse div {
+    width: 145px;
+    float: left;
+    height: 145px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-left: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .contentEclipse div:first-child {
+    width: 145px;
+    float: left;
+    height: 145px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin-left: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
