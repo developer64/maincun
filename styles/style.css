@@ -8,6 +8,11 @@
     src: url(../fonts/Montserrat-Bold.ttf);
 }
 
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -199,8 +204,8 @@ body {
 
 .heading {
     position: absolute;
-    top: 183px;
-    left: 8px;
+    top: 365px;
+    left: 68px;
 
 }
 
@@ -208,8 +213,11 @@ body {
    display: inline; 
    float: left;
    justify-content: space-between;
-   width: 208px;
+   width: 241px;
    height: 29px;
+   font-family: "Roboto Bold", sans-serif;
+   font-size: 24px;
+   color: #000000;
 
 }
 
