@@ -9,13 +9,8 @@
 }
 
 @font-face {
-<<<<<<< HEAD
     font-family: "Roboto Black";
     src: url(../fonts/Roboto-Black.ttf);
-=======
-    font-family: "Roboto Bold";
-    src: url(../fonts/Roboto-Bold.ttf);
->>>>>>> f7dc7d0535aa8fca7bc518876f6c5fb3817fece8
 }
 
 body {
