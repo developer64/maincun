@@ -207,22 +207,6 @@ body {
     align-items: center;
 }
 
-<<<<<<< HEAD
-.bestMarket {
-    width: 208px;
-    height: 29px;
-    display: block;
-    top:344px;
-    left: 138px;
-    /* position: absolute; */
-}
-
-.bestMarket p {
-    font-family: "Roboto Black", sans-serif;
-    font-size: 24px;
-    color: #000000;
-}
-=======
 .heading {
     position: absolute;
     top: 365px;
@@ -254,4 +238,3 @@ body {
     justify-content: space-between;
     align-items: center;
 } */
->>>>>>> f7dc7d0535aa8fca7bc518876f6c5fb3817fece8
