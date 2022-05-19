@@ -207,7 +207,6 @@ body {
     align-items: center;
 }
 
-<<<<<<< HEAD
 .bestMarket {
     width: 208px;
     height: 29px;
@@ -222,36 +221,3 @@ body {
     font-size: 24px;
     color: #000000;
 }
-=======
-.heading {
-    position: absolute;
-    top: 365px;
-    left: 68px;
-
-}
-
-.heading div {
-   display: inline; 
-   float: left;
-   justify-content: space-between;
-   width: 241px;
-   height: 29px;
-   font-family: "Roboto Bold", sans-serif;
-   font-size: 24px;
-   color: #000000;
-
-}
-
-/* .contentEclipse div:first-child {
-    width: 145px;
-    float: left;
-    height: 145px;
-    background-color: #c4c4c4;
-    border-radius: 50%;
-    margin-left: 93px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-} */
->>>>>>> f7dc7d0535aa8fca7bc518876f6c5fb3817fece8
